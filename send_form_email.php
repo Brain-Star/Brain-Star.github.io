@@ -122,11 +122,11 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Email: ".clean_string($email)."\n";
  
-    $email_message .= "Telephone: ".clean_string($subject)."\n";
+    $email_message .= "Subject: ".clean_string($subject)."\n";
  
-    $email_message .= "Comments: ".clean_string($zipcode)."\n";
+    $email_message .= "Zip Code: ".clean_string($zipcode)."\n";
     
-    $email_message .= "Comments: ".clean_string($message)."\n";
+    $email_message .= "Message: ".clean_string($message)."\n";
  
      
  
